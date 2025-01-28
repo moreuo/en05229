@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "en05229"
+version = "0.1.0"
+description = ""
+authors = ["moreuo <98001570+moreuo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+kazoo = "^2.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
