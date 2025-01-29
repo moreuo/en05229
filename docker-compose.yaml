@@ -6,3 +6,8 @@ services:
       - ALLOW_ANONYMOUS_LOGIN=yes
     ports:
       - '2181:2181'
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 100M
