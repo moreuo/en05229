@@ -6,7 +6,7 @@ As barreiras são importantes para sincronizar nós dentro de um sistemas distri
 Uma barreira, no Zookeeper, nada mais é do que um nó pai (ex. "/barreira") que recebe vários
 nós filhos, os processos que devem ser sincronizados (ex. "/barreira/filósofo-1").
 
-* Barreiras Comuns
+* Barreiras Simples:
 Sincronizam o fim dos processos.
 
 * Barreiras Duplas
