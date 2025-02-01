@@ -9,3 +9,11 @@ O servidor do Zookeeper está no docker, por favor, instale o docker na sua dist
 
 Após isso, pode testar os códigos à vontade na porta e endereço padrão do Zookeeper (localhost:2181).
 
+## Usando poetry
+Instale o poetry e depois execute qualquer script com:
+
+`poetry run python3 script.py`
+
+## Usando pip
+Também dá pra usar o `pip install`, está tudo nos `requirements.txt`
+
